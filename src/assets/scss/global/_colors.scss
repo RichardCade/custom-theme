@@ -1,0 +1,57 @@
+@import "../../../node_modules/css-vars/css-vars";
+
+//$css-vars-use-native: true;
+
+$primary-color: #1779ba;
+$secondary-color: #767676;
+$success-color: #3adb76;
+$warning-color: #ffae00;
+$alert-color: #cc4b37;
+
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #0a0a0a;
+$white: #fefefe;
+
+$dark-nav-color: #2C3840;
+
+@include css-vars((--primary: $primary-color,
+    --secondary-color: $secondary-color,
+    --black: $black,
+    --white: $white,
+    --bg-primary: $white,
+    --bg-secondary: $black,
+    --text-primary: $black,
+    --text-secondary: $white,
+    --nav-dark: $dark-nav-color,
+    --nav-text-light: $white));
+
+body.dark {
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label {
+    color: var(--text-secondary) !important;
+  }
+
+  table {
+    color: var(--text-primary) !important;
+  }
+
+  .top-bar,
+  .top-bar ul {
+    background: var(--nav-dark);
+  }
+
+  a {
+    color: var(--nav-text-light);
+  }
+
+}

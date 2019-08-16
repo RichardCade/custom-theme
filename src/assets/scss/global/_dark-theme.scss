@@ -1,0 +1,39 @@
+.theme-switch {
+  border-radius: 15px !important;
+  background: #cacaca;
+
+  &::after {
+    border-radius: 15px !important;
+    background: #fefefe;
+  }
+}
+
+body.dark 
+{
+  background: var(--bg-dark);
+  color: var(--text-secondary);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label {
+    color: var(--text-secondary) !important;
+  }
+
+  table {
+    color: var(--text-primary) !important;
+  }
+
+  .top-bar,
+  .top-bar ul {
+    background: var(--nav-dark);
+  }
+
+  a {
+    color: var(--nav-text-light);
+  }
+
+}
