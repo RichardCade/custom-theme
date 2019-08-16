@@ -1,0 +1,36 @@
+.text- {
+  &primary {
+    color: var(--primary);
+  }
+
+  &secondary {
+    color: var(--secondary);
+  }
+
+  &white {
+    color: var(--white);
+  }
+}
+
+.text-border {
+
+
+  &-primary {
+    border-left: solid 5px var(--primary);
+    padding-left: 10px;
+  }
+
+  &-secondary {
+    border-left: solid 5px var(--secondary);
+    padding-left: 10px;
+  }
+}
+
+$serif: 'Merriweather',
+serif;
+
+@include css-vars((--serif: $serif));
+
+.serif {
+  font-family: var(--serif);
+}

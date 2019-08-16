@@ -56,7 +56,7 @@ get_header(); ?>
 	<hr />
 </div>
 
-<div class="container">
+<div class="container waypoint" id="waypoint-left">
   <div class="grid">
        <div class="column large-5"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sit incidunt officiis! Illo labore dolorum, fugiat, eveniet cumque officia ex incidunt dignissimos, beatae unde saepe modi tempora nulla. Deserunt, nostrum!</div>
       <div class="column large-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sit incidunt officiis! Illo labore dolorum, fugiat, eveniet cumque officia ex incidunt dignissimos, beatae unde saepe modi tempora nulla. Deserunt, nostrum!</div>

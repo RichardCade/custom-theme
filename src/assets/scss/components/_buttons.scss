@@ -1,8 +1,24 @@
-.sites-button {
+.sites-button,  .wp-block-button .wp-block-button__link {
   background: var(--primary);
   font-size: 1.25rem;
   font-weight: bold;
-  box-shadow: 0 -2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset;
   border-radius: 3px;
   border: none;
+
+  &.button.hollow {
+    border: 1px solid var(--white);
+    box-shadow: none;
+    color: var(--white);
+
+    &:hover {
+      background: var(--white);
+      color: var(--primary);
+    }
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--primary-light);
+  }
 }

@@ -49,11 +49,11 @@
 
       </div>
 
-      <input class="switch-input" id="themeSwitch" type="checkbox" name="exampleSwitch">
-      <label class="switch-paddle" for="themeSwitch">
+      <input class="switch-input" id="themeSwitch" type="checkbox" name="themeSwitch">
+      <label class="switch-paddle theme-switch" for="themeSwitch">
         <span class="show-for-sr">Light and dark theme toggler</span>
-        <span class="switch-active" aria-hidden="true">Dark</span>
-        <span class="switch-inactive" aria-hidden="true">Light</span>
+        <span class="switch-active" aria-hidden="true"><i class="fas fa-sun"></i></span>
+        <span class="switch-inactive" aria-hidden="true"><i class="fas fa-moon"></i></span>
       </label>
 
     </nav>

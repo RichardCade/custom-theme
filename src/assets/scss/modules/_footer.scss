@@ -1,7 +1,27 @@
+footer {
+  background: var(--primary);
+  color: var(--white);
+
+  .widget_pages {
+    h6 {
+      display: none;
+    }
+    text-align: right;
+  }
+
+  a {
+    color: var(--white);
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: var(--white);
+    text-decoration: none;
+  }
+}
+
 .footer-container {
-  @include xy-grid-container;
-  border-top: 1px solid $medium-gray;
-  margin-top: rem-calc(60);
+  @include xy-grid-container(rem-calc(1600), 0);
 }
 
 .footer-grid {
@@ -10,6 +30,7 @@
 
   section {
     @include xy-cell();
+
     @include breakpoint(large) {
       @include xy-cell(auto);
     }

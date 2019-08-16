@@ -69,9 +69,11 @@ $fa-font-path: "../webfonts" !default;
 // Global
 @import "global/accessibility";
 @import "global/colors";
+@import "global/dark-theme";
 @import "global/wp-admin";
 @import "global/wp-overrides";
 @import "global/gutenberg";
+@import "global/typography";
 
 // Modules
 @import "modules/navigation";
