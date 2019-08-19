@@ -18,7 +18,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> id="body">
+<body <?php body_class(); ?>>
 
   <?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
   <?php get_template_part( 'template-parts/mobile-off-canvas' ); ?>
@@ -55,7 +55,7 @@
         <span class="switch-active" aria-hidden="true"><i class="fas fa-sun"></i></span>
         <span class="switch-inactive" aria-hidden="true"><i class="fas fa-moon"></i></span>
       </label>
-
+   
     </nav>
 
   </header>
